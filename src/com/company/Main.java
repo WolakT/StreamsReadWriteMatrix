@@ -34,7 +34,10 @@ public class Main {
 
         try {
             Files.lines(Paths.get("fileWriter.txt"))
-                    .forEach(line -> System.out.println(line));
+                    .int
+                    .forEach(line -> System.out.println(line))
+
+
 
         } catch (IOException e) {
             e.printStackTrace();
